@@ -2,7 +2,7 @@
 
 ## Review:
 
-$\textcolor{dark-blue}{\textsf{Difficulties of Client Requirements and Management: }}$ 
+$\textcolor{blue}{\textsf{Difficulties of Client Requirements and Management: }}$ 
 
 
 • **Clients often don’t know what is needed or what is feasible.**

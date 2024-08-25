@@ -14,11 +14,7 @@ Difficulties of Client Requirements and Management:
 
 •  It is likely that increased understanding and changing conditions will generate new or changed software requirements.    
 
-
-#################################
 #             Shadows           #
-#################################
-
 
 
 • As a result of changing requirements, software is often built using an iterative process rather than as a sequence of closed tasks.

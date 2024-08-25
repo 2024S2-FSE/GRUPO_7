@@ -12,11 +12,12 @@ Difficulties of Client Requirements and Management:
 
   Os clientes devido a não saberem da complexidade inerente na engenharia do software, não tem a devida consciência do impacto da mudança de requerimentos
 
-•   
-#################################
-  It is likely that increased understanding and changing conditions will generate new or changed software requirements.    
-#################################
+•  It is likely that increased understanding and changing conditions will generate new or changed software requirements.    
 
+
+#################################
+#             Shadows           #
+#################################
 
 
 

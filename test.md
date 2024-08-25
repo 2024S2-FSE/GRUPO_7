@@ -14,7 +14,7 @@ Difficulties of Client Requirements and Management:
 
 •   
 #################################
-#   It is likely that increased understanding and changing conditions will generate new or changed software requirements.       #
+  It is likely that increased understanding and changing conditions will generate new or changed software requirements.    
 #################################
 
 

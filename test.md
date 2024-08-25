@@ -2,7 +2,8 @@
 
 ## Review:
 
-Difficulties of Client Requirements and Management: 
+$\textcolor{dark-blue}{\textsf{Difficulties of Client Requirements and Management: }}$ 
+
 
 • **Clients often don’t know what is needed or what is feasible.**
 
@@ -24,5 +25,4 @@ Difficulties of Client Requirements and Management:
 
   Frequentemente há mudanças na tecnologia a ser utilizada.
 
-  #### $\textcolor{red}{\textsf{Color didint work .}}$ 
 

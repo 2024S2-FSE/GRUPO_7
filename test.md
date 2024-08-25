@@ -13,7 +13,8 @@ $\textsf{  Os clientes não sabem o que é preciso, e também o que é "doable"(
   
 • **As a result of changing requirements, software is often built using an iterative process rather than as a sequence of closed tasks.**
 
-$\textsf{Como resultado da mudança de requerimentos, um software é frequentemente feito usando um processo iterativo (repetição cíclica) ao invés de uma sequência fechada de tarefas (com começo e fim)}$ 
+$\textsf{Como resultado da mudança de requerimentos, um software é frequentemente feito usando um process
+o iterativo (repetição cíclica) ao invés de uma sequência fechada de tarefas (com começo e fim)}$ 
  
 • **Software engineering necessarily incorporates creativity and discipline. Maintaining an appropriate balance between the two is sometimes difficult.**
 

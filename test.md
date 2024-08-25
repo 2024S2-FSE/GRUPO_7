@@ -1,5 +1,11 @@
-$\pagecolor {black}$
-
+$\documentclass{article}
+\usepackage[dvipsnames]{xcolor}
+\colorlet{LightRubineRed}{RubineRed!70}
+\colorlet{Mycolor1}{green!10!orange}
+\definecolor{Mycolor2}{HTML}{00F9DE}
+\begin{document}
+\pagecolor{black}
+\color{white}%$
 # Trabalho de resumo 
 
 ## Review:

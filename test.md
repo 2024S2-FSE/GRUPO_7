@@ -1,10 +1,10 @@
+$\pagecolor {black}$
+
 # Trabalho de resumo 
 
 ## Review:
 
-$text-color(red) f{Difficulties of Client Requirements and Management}$: 
-
-
+### $\textcolor{red}{\textsf{Difficulties of Client Requirements and Management}}$ 
 
 
 • **Clients often don’t know what is needed or what is feasible.**

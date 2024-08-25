@@ -1,7 +1,7 @@
 # GRUPO_7
 Grupo criado para a realização do trabalho.
 
-## Intergrantes
+## Integrantes
 
 - Matheus Bolotaro
 - Gustavo Fernandes

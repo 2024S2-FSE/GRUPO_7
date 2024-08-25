@@ -1,6 +1,6 @@
-#Trabalho de resumo #
+# Trabalho de resumo 
 
-##Review:##
+## Review:
 
 Difficulties of Client Requirements and Management: 
 
@@ -23,4 +23,6 @@ Difficulties of Client Requirements and Management:
 • **There is often a rapid rate of change in the underlying technology.**
 
   Frequentemente há mudanças na tecnologia a ser utilizada.
+
+  #### $\textcolor{red}{\textsf{Color didint work .}}$ 
 

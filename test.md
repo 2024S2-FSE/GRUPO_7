@@ -4,7 +4,7 @@ $\pagecolor {black}$
 
 ## Review:
 
-### $\textcolor{red}{\textsf{Difficulties of Client Requirements and Management}}$ 
+### $\textcolor{red}{\text{Difficulties of Client Requirements and Management}}$ 
 
 
 • **Clients often don’t know what is needed or what is feasible.**

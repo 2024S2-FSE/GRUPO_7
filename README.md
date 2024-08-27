@@ -3,7 +3,7 @@ Grupo criado para a realização do trabalho.
 
 ## Integrantes
 
-- Matheus Bolotaro
+- Mateus Bolotaro
 - Gustavo Fernandes
 - Eduardo Odelon
 - Fábio

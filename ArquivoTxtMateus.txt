@@ -1,0 +1,15 @@
+Capítulo 4: Testes de Software - Tópicos 4 e 6.
+Discente: Mateus Bolotaro Rodrigues
+
+- Tópico 4: "Medidas Relacionadas ao Teste"
+
+* Introdução (Técnicas de Teste x Objetivos de Teste):
+
+  As medidas de teste são, na maioria das vezes, essenciais para a análise da qualidade do programa e podem até mesmo serem usados para alterar o planejamento e a execução das atividades (Swebok, 2004). Além disso, essas, quando utilizadas corretamente, distinguem as técnicas do teste do objetivo de teste que muitas vezes são confundidas.
+  De acordo com o Swebok (2004), as técnicas de testes são ferramentas que auxiliam no alcance dos objetivos e não o objetivo do teste em si; assim ela colabora para que os resultados do teste sejam concluídos; para que ambas não sejam confundidas, é fundamental que haja uma distinção e definição clara da avaliação do programa em relação ao teste e a avaliação do próprio conjunto de testes.
+
+* Avaliação do Programa em Relação ao Teste:
+  Estas avaliações podem ser referentes a diversas características do software, como o tamanho do código-fonte, as chamadas de uma função, 
+
+
+// Continua

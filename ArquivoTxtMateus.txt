@@ -1,15 +1,25 @@
 Capítulo 4: Testes de Software - Tópicos 4 e 6.
 Discente: Mateus Bolotaro Rodrigues
 
+----- FICHÁRIO ------ 
+
 - Tópico 4: "Medidas Relacionadas ao Teste"
 
 * Introdução (Técnicas de Teste x Objetivos de Teste):
 
   As medidas de teste são, na maioria das vezes, essenciais para a análise da qualidade do programa e podem até mesmo serem usados para alterar o planejamento e a execução das atividades (Swebok, 2004). Além disso, essas, quando utilizadas corretamente, distinguem as técnicas do teste do objetivo de teste que muitas vezes são confundidas.
-  De acordo com o Swebok (2004), as técnicas de testes são ferramentas que auxiliam no alcance dos objetivos e não o objetivo do teste em si; assim ela colabora para que os resultados do teste sejam concluídos; para que ambas não sejam confundidas, é fundamental que haja uma distinção e definição clara da avaliação do programa em relação ao teste e a avaliação do próprio conjunto de testes.
+  De acordo com o Swebok (2004), as técnicas de testes são as ferramentas que auxiliam no alcance dos objetivos e não o objetivo do teste em si; assim ela colabora para que os resultados do teste sejam concluídos. Para que ambos não sejam confundidos, é fundamental que haja uma distinção e definição clara da avaliação do programa em relação ao teste e a avaliação do próprio conjunto de testes.
 
 * Avaliação do Programa em Relação ao Teste:
-  Estas avaliações podem ser referentes a diversas características do software, como o tamanho do código-fonte, as chamadas de uma função, 
+  Estas avaliações podem ter diversas medidas sobre as características do software e ocorrências do mesmo, sendo elas:
+
+> Tamanho do código-fonte, quantidades de chamadas de módulos e a estruturação do projeto; são importantes para compreender a complexidade do sistema e como os testes poderão ser realizados;
+
+> Classificações de possíveis falhas que podem ser encontradas no software (principalmente de falhas que já ocorreram anteriormente), são importantes para previsão de erros que podem novamente ressurgir após alguma alteração;
+
+> Pela densidade de falhas, que é a razão obtida através dos tipos de erros encontrados em relação ao tamanho do programa;
+
+> Por uma avaliação da confiabilidade do sistema que pode, em ocasiões positivas, encerrar o período de testes;
 
 
 // Continua

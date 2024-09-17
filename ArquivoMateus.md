@@ -1,16 +1,17 @@
 Capítulo 4: Testes de Software - Tópicos 4 e 6.
+
 Discente: Mateus Bolotaro Rodrigues
 
------ FICHÁRIO ------ 
+# Fichamento
 
-- Tópico 4: "Medidas Relacionadas ao Teste"
+## Tópico 4: "Medidas Relacionadas ao Teste"
 
-* Introdução (Técnicas de Teste x Objetivos de Teste):
+### 1. Introdução (Técnicas de Teste x Objetivos de Teste):
 
   As medidas de teste são essenciais para a análise da qualidade do programa e podem até mesmo ser usados para alterar o planejamento e a execução das atividades (Swebok, 2004). Além disso, essas, quando utilizadas corretamente, distinguem as técnicas do teste do objetivo de teste que muitas vezes são confundidas.
   De acordo com o Swebok (2004), as técnicas de testes são as ferramentas que auxiliam no alcance dos objetivos e não o objetivo do teste em si; assim ela colabora para que os resultados do teste sejam concluídos. Para que ambos não sejam confundidos, é fundamental que haja uma distinção e definição clara das medidas utilizadas na avaliação do programa em relação as ao teste e as medidades da avaliação do próprio conjunto de testes.
 
-1) Avaliação do Programa em Relação ao Teste:
+### 2. Avaliação do Programa em Relação ao Teste:
   Estas avaliações levam em conta as características do produto e as ocorrências dele para que se elabore as medidas, sendo elas:
 
 a. Tamanho do código-fonte, quantidades de chamadas de módulos e a estruturação do projeto; são importantes para compreender a complexidade do sistema e como os testes poderão ser realizados;
@@ -23,7 +24,7 @@ d. Por uma avaliação da confiabilidade do sistema que ocorre por meio de uma e
 
 e. Modelos de crescimento da confiabilidade: A partir do momento em que se estabelece a avaliação da confiabilidade, é possível determinar o os modelos de crescimento de confabilidade que são predições sobre a confiabilidade do software. Estas predições tendem a aumentar a sua confiabildiade conforme as falhas são identificadas e corrigidas.  
 
-2) Avaliação do Conjunto de Testes:
+### 3. Avaliação do Conjunto de Testes:
   Diferentemente da avaliação anterior, esta está centrada em analisar a adequação dos próprios testes, utilzando então de medidas que, desta vez, relacionam-se as características do teste.
 
 a. Medidas de Cobertura / Minuciosidade: Esta medida refere-se a abrangência dos testes em relação aos elementos de software, tanto a quantos elementos foram cobertos, como no detalhamento e profundidade do teste nos elementos. Esta medida pode ser obtida analisando os elementos cobertos em razão da quantidade total de elementos.
@@ -32,15 +33,15 @@ b. Fault Seeding (semeadura / implementação de falhas): Para que se obtenha es
 
 c. Pontuação de Mutação: É criado versões do produto original com pequenas modificações (chamadas de mutantes); o teste então, deve identificar e eliminar as mutações criadas (os mutantes mortos); a partir daí, é gerado uma pontuação com base na razão dos mutantes mortos e o total de mutantes gerados. 
 
-- Tópico 6: "Ferramentas de Testes de Software"
+## Tópico 6: "Ferramentas de Testes de Software"
 
-*Introdução (A importância de Ferramentas de Testes):
+### Introdução (A importância de Ferramentas de Testes):
   O processo de testar programas envolve muitas tarefas, execução de programas e o processamento de diversas informações. Criar testes manualmente sem nenhum auxílio de ferramentas pode ser uma prática trabalhosa e que pode abrir brechas para possíveis erros graças ao aumento de linhas de código. A fim de simplificar este processo e garantir testes mais sólidos, muitas ferramentas foram criadas para automatizar e auxiliar a criação de testes (Swebok, 2004).
 
-1. Seleção de ferramentas:
+### 1. Seleção de ferramentas:
   De acordo com o Swebok (2004), há uma grande importância no processo de seleção das ferramentas que participarão do processo de testes do software. E em muitas das vezes, é indicado que haja não apenas uma ferramenta, mas um conjunto de ferramentas que atuarão nos testes.
 
-2. Categorias de ferramentas:
+### 2. Categorias de ferramentas:
   a. Estruturas de Teste: As ferramentas dessa categoria criam um ambiente controlado que simulam a chamada de módulos (a partir dos drivers que simulam partes do sistema que chamariam esses módulos) com parâmetros específicos e registram a saída ou que simulam outros módulos com respostas predefinidas (os stubs) para que o módulo em teste seja analisado isoladamente. // Necessita de mais referências quanto ao stub e ao driver
 
  b. Geradores de Teste: Ferramentas capazes de criar os casos dos testes, podendo ser de modo aleatório (que pode ser interessante pelo fato de analisar tópicos que não foram planejados), baseada nos caminhos que o software pode seguir (diferentes formas de entradas), com base no modelo do sistema ou na junção de todos esses.

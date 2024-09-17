@@ -35,13 +35,13 @@ c. Pontuação de Mutação: É criado versões do produto original com pequenas
 
 ## Tópico 6: "Ferramentas de Testes de Software"
 
-### Introdução (A importância de Ferramentas de Testes):
+### 1. Introdução (A importância de Ferramentas de Testes):
   O processo de testar programas envolve muitas tarefas, execução de programas e o processamento de diversas informações. Criar testes manualmente sem nenhum auxílio de ferramentas pode ser uma prática trabalhosa e que pode abrir brechas para possíveis erros graças ao aumento de linhas de código. A fim de simplificar este processo e garantir testes mais sólidos, muitas ferramentas foram criadas para automatizar e auxiliar a criação de testes (Swebok, 2004).
 
-### 1. Seleção de ferramentas:
+### 2. Seleção de ferramentas:
   De acordo com o Swebok (2004), há uma grande importância no processo de seleção das ferramentas que participarão do processo de testes do software. E em muitas das vezes, é indicado que haja não apenas uma ferramenta, mas um conjunto de ferramentas que atuarão nos testes.
 
-### 2. Categorias de ferramentas:
+### 3. Categorias de ferramentas:
   a. Estruturas de Teste: As ferramentas dessa categoria criam um ambiente controlado que simulam a chamada de módulos (a partir dos drivers que simulam partes do sistema que chamariam esses módulos) com parâmetros específicos e registram a saída ou que simulam outros módulos com respostas predefinidas (os stubs) para que o módulo em teste seja analisado isoladamente. // Necessita de mais referências quanto ao stub e ao driver
 
  b. Geradores de Teste: Ferramentas capazes de criar os casos dos testes, podendo ser de modo aleatório (que pode ser interessante pelo fato de analisar tópicos que não foram planejados), baseada nos caminhos que o software pode seguir (diferentes formas de entradas), com base no modelo do sistema ou na junção de todos esses.

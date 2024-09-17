@@ -33,5 +33,26 @@ b. Fault Seeding (semeadura / implementação de falhas): Para que se obtenha es
 c. Pontuação de Mutação: É criado versões do produto original com pequenas modificações (chamadas de mutantes); o teste então, deve identificar e eliminar as mutações criadas (os mutantes mortos); a partir daí, é gerado uma pontuação com base na razão dos mutantes mortos e o total de mutantes gerados. 
 
 - Tópico 6: "Ferramentas de Testes de Software"
-// Continua
 
+*Introdução (A importância de Ferramentas de Testes):
+  O processo de testar programas envolve muitas tarefas, execução de programas e o processamento de diversas informações. Criar testes manualmente sem nenhum auxílio de ferramentas pode ser uma prática trabalhosa e que pode abrir brechas para possíveis erros graças ao aumento de linhas de código. A fim de simplificar este processo e garantir testes mais sólidos, muitas ferramentas foram criadas para automatizar e auxiliar a criação de testes (Swebok, 2004).
+
+1. Seleção de ferramentas:
+  De acordo com o Swebok (2004), há uma grande importância no processo de seleção das ferramentas que participarão do processo de testes do software. E em muitas das vezes, é indicado que haja não apenas uma ferramenta, mas um conjunto de ferramentas que atuarão nos testes.
+
+2. Categorias de ferramentas:
+  a. Estruturas de Teste: As ferramentas dessa categoria criam um ambiente controlado que simulam a chamada de módulos (a partir dos drivers que simulam partes do sistema que chamariam esses módulos) com parâmetros específicos e registram a saída ou que simulam outros módulos com respostas predefinidas (os stubs) para que o módulo em teste seja analisado isoladamente. // Necessita de mais referências quanto ao stub e ao driver
+
+ b. Geradores de Teste: Ferramentas capazes de criar os casos dos testes, podendo ser de modo aleatório (que pode ser interessante pelo fato de analisar tópicos que não foram planejados), baseada nos caminhos que o software pode seguir (diferentes formas de entradas), com base no modelo do sistema ou na junção de todos esses.
+
+c. Ferramentas de Captura / Replay: Ferramentas que automaticamente reproduzem testes já executados com entradas e saídas definidas.
+
+d. Ferramentas da Oracle / Comparadores de Arquivos / Verificadores de Aserções: Ferramentas com a função de auxiliar o processo de decidir se o resultado pode ser considerado correto ou se há algum erro.
+
+e. Analisadores de Cobertura e Instrumentadores: São dois tipos de ferramentas que trabalham em conjunto. Os analisadores de cobertura verificam quais partes do código (funções, linhas, etc) foram realmente cobertas pelo teste. Este processo somente é possível a partir do uso dos instrumentadores, que modificam o código a fim de permitir que seja registrado quais partes do código foram cobertos.
+
+f. Rastreadores (Tracers): São ferramentas capazes de analisar e manter um histórico de quais caminhos do programa foram executados.
+
+g. Ferramentas de Teste de Regressão: Essas ferramentas tem a funcionalidade de garantir que o programa não carregue novos problemas após uma alteração no código. Para isso, elas permitem que o conjunto de testes (ou parte dele) já criados possam ser reexecutados.
+
+h. Ferrramentas de Avaliação de Confiabilidade: Essas ferramentas analisam e exibem os resultados dos testes de maneira visual a fim de facilitar a avaliação das medidas relacionadas à confiabilidade (ver tópico 4)

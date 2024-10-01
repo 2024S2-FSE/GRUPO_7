@@ -2,8 +2,6 @@ Capítulo 4: Testes de Software - Tópicos 1 e 2.
 
 Discente: Fábio Araújo Bruno
 
-# ---- FICHÁRIO ----
-
 ## Fichamento de citação (Tópico 1): Fundamentos de teste de software
 
 ### 1.1 Terminologia Relacionada a Testes
@@ -55,8 +53,6 @@ Discente: Fábio Araújo Bruno
 >Testes vs. Depuração: testes confirmam se o software funciona corretamente, enquanto a depuração foca na localização e correção de erros.
 
 >Testes vs. Construção de Programas: testes verificam o software desenvolvido, enquanto a construção de programas refere-se ao desenvolvimento do código."(Bourque e Fairlay, 2004).
-
-### #-----------------------------------------------------------------------------------------------------#
 
 ## Fichamento de citação (Tópico 2): Níveis de Teste
 

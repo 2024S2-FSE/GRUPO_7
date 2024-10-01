@@ -10,7 +10,7 @@ Discente: Fábio Araújo Bruno
 
 #### 1.1.1 Definições de Testes e Terminologia Relacionada.
 
-> "O texto fornece definições precisas para termos usados na engenharia de software para  descrever falhas e erros. Ele resume as definições essenciais para entendimento e  aplicação correta de conceitos relacionados a testes de software."(Bourque e Fairlay, 2004).
+> O texto fornece definições precisas para termos usados na engenharia de software para  descrever falhas e erros. Ele resume as definições essenciais para entendimento e  aplicação correta de conceitos relacionados a testes de software.
 
 #### 1.1.2 Falhas vs. Erros
 

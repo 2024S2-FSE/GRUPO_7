@@ -2,44 +2,41 @@ Capítulo 4: Testes de Software - Tópico 3
 
 Discente: Eduardo Odelon Wagner
 
-## Fichamento
-
 ### Técnicas de teste
 
-> "[...] tentam “parar” o programa, rodando um ou vários testes esboçados das classes identificadas de execuções julgadas equivalentes. O princípio fundamental que é a base de tais técnicas é ser tão sistemático como possível em identificar um conjunto representativo de comportamentos do programa; por exemplo, considerando subclasses do domínio de entrada, cenário, estados, e fluxo de dados."
+#### Teste Funcional (caixa-preta)
 
-> "A classificação é baseada em como os testes são gerados"
+Avalia se o software atende aos requisitos funcionais definidos, sem examinar a estrutura interna. Crispin e Gregory (2009) definem que “os testes funcionais garantem que o software faça o que deveria fazer”. Essa abordagem é essencial para validar a experiência do usuário e garantir que as funcionalidades operem conforme esperado.
 
-> "Às vezes estas técnicas são classificadas como caixa branca, igualmente chamada caixa transparente, se os testes confiam na informação sobre como o software foi projetado ou codificado, ou como caixa-preta se os casos de teste confiam somente no comportamento de entrada/saída. "
+#### Teste Estrutural (caixa-branca)
 
-#### Baseado na intuição e na experiência do engenheiro de software
+Já nos testes de caixa-branca, a lógica interna do código é examinada, assegurando que todos os caminhos e condições sejam testados. Myers (2011) ressalta que “o teste estrutural fornece uma compreensão mais profunda do comportamento do sistema.” Esse teste ajuda a identificar falhas que podem não ser visíveis em testes de caixa-preta.
 
-##### Ad Hoc
+#### Teste de Regressão
 
-> "Talvez a técnica mais extensamente praticada permaneça sendo o teste ad hoc: os testes são derivados confiando na habilidade do engenheiro de software, intuição, e experiência com programas similares. O teste ad hoc pode ser útil para identificar testes especiais, aqueles não facilmente capturados por técnicas formalizadas."
+Segundo Crispin e Gregory (2009), os testes de regressão garantem que a aplicação continue a funcionar após alterações. Este teste é fundamental pois valida se as novas implementações não afetam funcionalidades já existentes. Normalmente esse tipo de teste é realizado através da execução de testes automatizados construidos anteriormente. Essa prática é essencial para assegurar a integridade do software ao longo do tempo.
 
-##### Teste exploratório
+#### Teste de Carga
 
-> "O teste exploratório é definido simultaneamente como aprendizagem, o projeto do teste, e a execução do teste; isto é os testes não são definidos antecipadamente em um plano de teste estabelecido, mas são dinamicamente projetados, executados, e modificados. A eficácia do teste exploratório confia no conhecimento do engenheiro de software, que pode ser derivado de várias fontes: comportamento observado do produto durante o teste, familiaridade com a aplicação, a plataforma, o processo da falha, o tipo de falhas e fracassos possíveis, o risco associado com um produto em particular, e assim por diante."
+Avalia como o sistema se comporta sob uma quantidade normal de usuários e solicitações. Myers (2011) menciona que “o teste de carga ajuda a identificar limites de desempenho do sistema.” Isso é crucial para garantir que o software suporte a demanda esperada em condições normais de uso.
 
-#### Baseado na especificação
+#### Teste de Estresse
 
-##### Divisão equivalente
+Este teste leva o sistema além de seus limites operacionais para ver como ele se comporta sob pressão extrema. Crispin e Gregory (2009) afirmam que “testes de estresse revelam falhas ocultas que podem ocorrer em situações críticas.” Esse tipo de teste é importante para garantir a robustez e a confiabilidade do software.
 
-> " O domínio de entrada é subdividido em uma coleção de subconjuntos, ou classes equivalentes, que são julgadas equivalente de acordo com uma relação específica, e um conjunto representativo dos testes (às vezes somente um) são tomados de cada classe"
+#### Teste de Usabilidade
 
-##### Análise do valor limite
+Avalia a experiência do usuário, medindo como os usuários interagem com o sistema. A usabilidade do sistema desenvolvido é imprescindível para a aceitação do software pelo usuário final. Esse teste garante que o software seja intuitivo e fácil de usar baseado nas regras e fundamentos da experiência do usuário (UX).
+(Crispin; Gregory, 2009)
 
-> "Os casos de teste são escolhidos próximo e nos limites do domínio da entrada das variáveis, com a razão subjacente que muitas falhas tendem a se concentrar perto dos valores extremos de entradas."
+#### Teste de Segurança
 
-##### Tabela de decisão
+Este teste identifica vulnerabilidades e garante que o sistema esteja protegido contra ataques. Myers (2011) destaca que “testes de segurança são cruciais para proteger dados sensíveis.”. Essa prática é fundamental para garantir a integridade do sistema e dos dados dos usuários contra possíveis ataques cibernéticos que o software possa vir a sofrer.
 
-> "[...] representam relacionamentos lógicos entre condiçõ(aproximadamente, entradas) e ações (aproximadamente, saídas). Os casos de teste são derivados sistematicamente considerando cada combinação possível de condições e de ações."
+##### Referências
 
-##### Teste aleatório
+CRISPIN, Lisa; GREGORY, Janet. Agile Testing: A Practical Guide for Testers and Agile Teams. Addison-Wesley, 2009.
 
-> "Os testes são gerados puramente em aleatório"
+MYERS, Glenford J. The Art of Software Testing. 3. ed. Wiley, 2011.
 
-> "Esta forma de teste cai sob o título da entrada de especificação baseada, desde que pelo menos o domínio da entrada seja conhecido, para poder escolher pontos aleatórios dentro dele."
-
-#### Baseada em código
+https://www.agtic.ufpr.br/pds-ufpr/ProcessoDemoisellePlugin/guidances/supportingmaterials/tecnicasTestes_8AB32ED1.html

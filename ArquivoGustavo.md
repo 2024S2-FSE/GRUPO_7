@@ -38,7 +38,7 @@ Guia pra leitura:
 - 6. Registro e análise de defeitos:
 - 7. Reteste e reavaliação:
 
-### Secundary topics:]
+### Secundary topics:
 
   - Estimativa de Custo e esforço e Medições do processo de testes (1)
   - Times internos e times independentes (1)

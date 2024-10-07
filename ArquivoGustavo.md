@@ -32,3 +32,6 @@ Guia pra leitura:
 
 
 
+## Referências:
+
+BOURQUE, Pierre; FAIRLEY, RJNICS. Swebok. Nd: IEEE Computer society, 2004.

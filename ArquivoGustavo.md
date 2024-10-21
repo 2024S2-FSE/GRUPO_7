@@ -63,3 +63,5 @@ Guia pra leitura:
 MARCELA. Etapas do Processo de Teste de Software: Compreendendo as Etapas Fundamentais dos Testes de Software. Disponível em: <https://awari.com.br/etapas-do-processo-de-teste-de-software-compreendendo-as-etapas-fundamentais-dos-testes-de-software/>. Acesso em: 7 out. 2024.
 
 BOURQUE, Pierre; FAIRLEY, RJNICS. Swebok. Nd: IEEE Computer society, 2004.
+
+DE, T. Tecnicas de estimativa de custo para projetos de simulacao de teste - FasterCapital. Disponível em: <https://fastercapital.com/pt/contente/Tecnicas-de-estimativa-de-custo-para-projetos-de-simulacao-de-teste.html#Import-ncia-da-estimativa-de-custo-em-projetos-de-simula--o-de-teste>. Acesso em: 21 out. 2024.

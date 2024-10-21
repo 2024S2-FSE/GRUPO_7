@@ -53,8 +53,8 @@ Guia pra leitura:
 
 ## 1 - Planejamento do teste:
 
-  Durante o planejamento do teste é onde se é definido a estratégia a ser adotada, o cronograma a ser seguido, e estimar quais serão os custos e recursos necessários para a realização completa do processo. Além de definir quais requisitos e critérios que serão utilizados para definir o que seria a entrega satisfatória e o modelo do software que deve ser adotado, quesitos os quais serão avaliados no proceder dos testes.
-  
+ 
+  O processo de testes, é uma etapa muito importante de um projeto, pois essa etapa pode se referir tanto ao teste de funcionamento do software, por meio de modelos virtuais, ambientais ou cenários que replicam o real, ou por meio de verificações para saber se o desenvolvimento está seguindo os requisitos feitos inicialmente. Dessa maneira, é de suma importância que haja um planejamento bem definido de quais passos serão seguidos. Tal planejamento deve abordar, mas não somente, o cronograma a ser seguido, a estratégia a ser adotada - como o TDD (Test Driven Development)-, e estimar quais serão os custos e recursos necessários para a realização completa do processo, de maneira a prevenir imprevistos, além de definir quais requisitos e critérios serão adotados para definir o que seria a entrega satisfatória e quais serão os requisitos avaliados no proceder dos testes.
 
 
 

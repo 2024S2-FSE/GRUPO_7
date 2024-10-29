@@ -1,3 +1,5 @@
+const {IMCCalculator} = require('./imc.js')
+
 describe('IMCCalculator', () => {
   it('test if imc calc is correct', () => {
     const mockWeight = 70;

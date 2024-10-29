@@ -12,3 +12,5 @@ class IMCCalculator {
     return 'Obesidade Grave';
   }
 }
+
+module.exports={IMCCalculator:IMCCalculator,};

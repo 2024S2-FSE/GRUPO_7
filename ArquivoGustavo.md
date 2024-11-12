@@ -54,13 +54,15 @@ Guia pra leitura:
 ## 1 - Planejamento do teste:
 
  
-  O processo de testes, é uma etapa muito importante de um projeto, pois essa etapa pode se referir tanto ao teste de funcionamento do software, por meio de modelos virtuais, ambientais ou cenários que replicam o real, ou por meio de verificações para saber se o desenvolvimento está seguindo os requisitos feitos inicialmente. Dessa maneira, é de suma importância que haja um planejamento bem definido de quais passos serão seguidos. Tal planejamento deve abordar, mas não somente, o cronograma a ser seguido, a estratégia a ser adotada - como o TDD (Test Driven Development)-, e estimar quais serão os custos e recursos necessários para a realização completa do processo, de maneira a prevenir imprevistos, além de definir quais requisitos e critérios serão adotados para definir o que seria a entrega satisfatória e quais serão os requisitos avaliados no proceder dos testes.
-  A exemplo, as funções mínimas que um planejamento de testes deve atender são:
-- A introdução com identificação do projeto e objetivos;
-- Conjunto de requisitos a serem testados;
-- Tipos de testes a serem realizados e ferramentas utilizadas;
-- Recursos que seraõ utilizados nos testes;
-- Cronograma de atividades (horários e uma média da quantidade de sprints).
+  O processo de testes é uma etapa fundamental em qualquer projeto, pois abrange tanto a validação do funcionamento do software em ambientes controlados — como modelos virtuais, ambientes simulados ou cenários que replicam o real — quanto a verificação do alinhamento do desenvolvimento com os requisitos definidos inicialmente. Dessa forma, é essencial ter um planejamento bem estruturado, que determine claramente os passos a serem seguidos durante os testes.
+  Esse planejamento deve incluir, entre outros elementos, o cronograma a ser seguido, a estratégia de teste adotada — como o TDD (Test Driven Development) — e a estimativa dos custos e recursos necessários para a realização completa do processo. Um planejamento eficaz ajuda a mitigar riscos e prevenir imprevistos, além de definir os critérios e requisitos que indicarão uma entrega satisfatória e estabelecer os padrões de qualidade a serem avaliados ao longo dos testes.
+  Entre os itens mínimos que um planejamento de testes deve abordar, estão:
+- Introdução: identificação do projeto e definição clara dos objetivos do teste.
+- Requisitos a serem testados: conjunto de critérios e funcionalidades que serão validados.
+- Tipos de testes e ferramentas: especificação dos tipos de testes a serem realizados e das ferramentas a serem utilizadas.
+- Recursos necessários: identificação dos recursos, como equipe, infraestrutura e tecnologia, que serão alocados.
+- Cronograma de atividades: detalhamento do calendário de execução, com horários e uma previsão da quantidade de sprints.
+Esse planejamento detalhado e bem estruturado contribui para a condução eficiente e eficaz do processo de testes, aumentando as chances de sucesso e de entrega de um software de qualidade.
 
 ## 2 - Análise de Requisitos
 
@@ -85,8 +87,16 @@ No quesito a respeito da estratégia do teste, será necessário avaliar qual ti
 
 ## 4- Execução dos teste e registro
 
-  Posterior a criação do projeto do teste e ambiente, se faz necessário aplicar eles e validar se sua execução está funcionando como esperado. Existem várias formas de executar os testes, como por meio de casos de testes, onde se é possível associar a excução do teste em relação ao contexto aplicado, geralmente realizado em ambientes locais. Executar por suítes de testes, testando vários testes de maneira sequencial, para avaliar vários casos ao mesmo tempo. Ao mesmo tempo que se é executado os testes, é importante que o programa esteja fazendo o registro dos mesmos. Afinal não se é interresante que aparece 30/31 testes passados, e não saber aonde que esse erro ocorreu. Os registros de execução do caso de teste e os registros de execução do suíte de testes, mapeiam o contexto de execução para o caso do teste ou suíte de teste der erro. Sabendo se está retornando falsos verdadeiros, ou erros inexistentes.
-  Também é interessante avaliar se os testes devem ser executados de maneira manual (que permite a alteração de variáveis para tentar localizar o erro), ou automatizada (que é mais ágil e permite executar em quantidades maiores de maneira facilitada).
+  Após a criação do projeto de teste e a configuração do ambiente, é essencial aplicar os testes e validar se a execução atende às expectativas iniciais. Existem diferentes abordagens para a execução dos testes, como:
+- Casos de Teste: execução baseada em casos específicos, permitindo associar o teste ao contexto definido. Este tipo de execução ocorre frequentemente em ambientes locais, onde os resultados podem ser analisados de forma individual.
+- Suítes de Testes: execução de múltiplos testes de forma sequencial, permitindo avaliar diversos cenários simultaneamente. Essa abordagem é útil para verificar a consistência do sistema em várias situações de uma só vez.
+
+Durante a execução, é crucial que o programa registre adequadamente cada teste realizado. A falta de registros claros pode dificultar a identificação de falhas; por exemplo, não é útil saber que 30 de 31 testes passaram sem conhecer exatamente onde ocorreu o erro. Os registros dos casos de teste e das suítes são fundamentais para mapear o contexto de execução e permitir uma análise detalhada caso algum teste falhe. Isso facilita identificar se os resultados foram falsos positivos, falsos negativos ou erros inesperados. 
+  Além disso, é importante decidir entre a execução manual e a execução automatizada dos testes:
+-  Execução Manual: permite ajustar variáveis em tempo real, auxiliando na identificação de possíveis causas para um erro específico.
+- Execução Automatizada: mais rápida e eficiente, possibilita a execução em grande escala, ideal para processos repetitivos ou de grande volume.
+
+Essa escolha depende do contexto e dos objetivos do teste, garantindo uma abordagem eficaz para a verificação e validação do sistema.
 
 ## 5- Retestes e reavaliação
 

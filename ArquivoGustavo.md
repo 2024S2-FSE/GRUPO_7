@@ -3,7 +3,7 @@
 ## 1 - Planejamento do teste:
 
  
-  O processo de testes é uma etapa fundamental em qualquer projeto, pois abrange tanto a validação do funcionamento do software em ambientes controlados — como modelos virtuais, ambientes simulados ou cenários que replicam o real — quanto a verificação do alinhamento do desenvolvimento com os requisitos definidos inicialmente. Dessa forma, é essencial ter um planejamento bem estruturado, que determine claramente os passos a serem seguidos durante os testes.
+  O processo de testes é uma etapa fundamental em qualquer projeto, pois abrange tanto a validação do funcionamento do software em ambientes controlados — como modelos virtuais, ambientes simulados ou cenários que replicam o real — quanto a verificação do alinhamento do desenvolvimento com os requisitos definidos inicialmente.As atividades de teste, conduzidas em diferentes níveis, devem ser organizadas de maneira a juntar as pessoas, as ferramentas, as políticas, e mensurar esses elementes em um processo bem definido que é integrante do ciclo de vida do software, de acordo com SWEBOK (2004). Dessa forma, é essencial ter um planejamento bem estruturado, que determine claramente os passos a serem seguidos durante os testes.
   Esse planejamento deve incluir, entre outros elementos, o cronograma a ser seguido, a estratégia de teste adotada — como o TDD (Test Driven Development) — e a estimativa dos custos e recursos necessários para a realização completa do processo. Um planejamento eficaz ajuda a mitigar riscos e prevenir imprevistos, além de definir os critérios e requisitos que indicarão uma entrega satisfatória e estabelecer os padrões de qualidade a serem avaliados ao longo dos testes.
   Entre os itens mínimos que um planejamento de testes deve abordar, estão:
 - Introdução: identificação do projeto e definição clara dos objetivos do teste.
@@ -40,12 +40,16 @@ No quesito a respeito da estratégia do teste, será necessário avaliar qual ti
 - Casos de Teste: execução baseada em casos específicos, permitindo associar o teste ao contexto definido. Este tipo de execução ocorre frequentemente em ambientes locais, onde os resultados podem ser analisados de forma individual.
 - Suítes de Testes: execução de múltiplos testes de forma sequencial, permitindo avaliar diversos cenários simultaneamente. Essa abordagem é útil para verificar a consistência do sistema em várias situações de uma só vez.
 
-Durante a execução, é crucial que o programa registre adequadamente cada teste realizado. A falta de registros claros pode dificultar a identificação de falhas; por exemplo, não é útil saber que 30 de 31 testes passaram sem conhecer exatamente onde ocorreu o erro. Os registros dos casos de teste e das suítes são fundamentais para mapear o contexto de execução e permitir uma análise detalhada caso algum teste falhe. Isso facilita identificar se os resultados foram falsos positivos, falsos negativos ou erros inesperados. 
+ Durante a execução, é crucial que o programa registre adequadamente cada teste realizado. A falta de registros claros pode dificultar a identificação de falhas; por exemplo, não é útil saber que 30 de 31 testes passaram sem conhecer exatamente onde ocorreu o erro. Os registros dos casos de teste e das suítes são fundamentais para mapear o contexto de execução e permitir uma análise detalhada caso algum teste falhe. Isso facilita identificar se os resultados foram falsos positivos, falsos negativos ou erros inesperados. 
   Além disso, é importante decidir entre a execução manual e a execução automatizada dos testes:
--  Execução Manual: permite ajustar variáveis em tempo real, auxiliando na identificação de possíveis causas para um erro específico.
-- Execução Automatizada: mais rápida e eficiente, possibilita a execução em grande escala, ideal para processos repetitivos ou de grande volume.
+-  Execução Manual: permite ajustar variáveis em tempo real, auxiliando na identificação de possíveis causas para um erro específico, além de ser um exelente auxiliador em testes exploratórios, isto é, olhar para o código e tentar achar uma maneira de quebrá-lo, (ANICHE, 2015). Apenas para após isso identificar a falha e melhorar o código.
+- Execução Automatizada: "Um teste automatizado é similar. Ele descreve um cenário, executa uma ação e valida uma saída. A diferença é que quem fará tudo isso será a máquina, sem qualquer intervenção humana." (CARDOSO, ANICHE, 2014). Porém com o adicional  de ser mais rápido e eficiente, possibilita a execução em grande escala, ideal para processos repetitivos ou de grande volume. 
+
 
 Essa escolha depende do contexto e dos objetivos do teste, garantindo uma abordagem eficaz para a verificação e validação do sistema.
+
+ Por fim, ao integra um novo teste ao suíte de testes, é interessante adicionar um teste de regressão, isto é, " testes para garantir que o resto do sistema ainda continua funcionando mesmo após a implementação da nova funcionalidade", ANICHE (2015). Pois, não é interessante integrar um teste novo apenas para o antigo não funcionar mais.
+
 
 ## 5- Retestes e reavaliação
 
@@ -54,11 +58,14 @@ Essa escolha depende do contexto e dos objetivos do teste, garantindo uma aborda
 
 
 ## Referências:
+
+CARDOSO, Andre; ANICHE, Mauricio. Test-driven development: teste e design no mundo real com PHP. São Paulo, SP: Casa do Código, 2014. E-book. Disponível em: https://plataforma.bvirtual.com.br. Acesso em: 12 nov. 2024.
+
 MARCELA. Etapas do Processo de Teste de Software: Compreendendo as Etapas Fundamentais dos Testes de Software. Disponível em: <https://awari.com.br/etapas-do-processo-de-teste-de-software-compreendendo-as-etapas-fundamentais-dos-testes-de-software/>. Acesso em: 7 out. 2024.
 
-BOURQUE, Pierre; FAIRLEY, RJNICS. Swebok. Nd: IEEE Computer society, 2004.
+ANICHE, Mauricio. Testes automatizados de software: um guia prático. São Paulo, SP: Casa do Código, 2015. E-book. Disponível em: https://plataforma.bvirtual.com.br. Acesso em: 12 nov. 2024.
 
-DE, T. Tecnicas de estimativa de custo para projetos de simulacao de teste - FasterCapital. Disponível em: <https://fastercapital.com/pt/contente/Tecnicas-de-estimativa-de-custo-para-projetos-de-simulacao-de-teste.html#Import-ncia-da-estimativa-de-custo-em-projetos-de-simula--o-de-teste>. Acesso em: 21 out. 2024.
+BOURQUE, Pierre; FAIRLEY, RJNICS. Swebok. Nd: IEEE Computer society, 2004.
 
 
 Método utilizado inicialmente:

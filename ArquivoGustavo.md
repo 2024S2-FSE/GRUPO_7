@@ -1,54 +1,3 @@
-# Capítulo 4 - Software Testing
-
-## Tópico 5 e dependências
-
-Guia pra leitura:
-  - *** => importante
-  - * => considerar
-
-# Test Process
-
-## Tópicos guiados via swebok
-
-- Atitudes e programação sem ego
-- Guias de teste
-- Processo de gerenciamento de testes
-- Documentação dos testes e Produtos de trabalho *
-- Test Driven Development (TDD), o que é ***
-- Times internos e times independentes
-- Estimativa de Custo e esforço e Medições do processo de testes
-- Quando terminar ? *
-- Padrões de teste e reutilização de testes ***
-- Atividades de teste *
-- Planejamento
-- Geração de Test case *
-- Desenvolvimento do ambiente de testes *
-- Execução ***
-- Avaliação da execução dos testes *
-- Test log (Reportando o problema) *
-- Procurando o defeito (Defect tracking) *
-
-## Escolha dos tópicos principais:
-
-- 1. Planejamento do teste:
-- 2. Análise de requisitos:
-- 3. Projeto de testes:
-- 4. Preparação do ambiente:
-- 5. Execução dos testes:
-- 6. Registro e análise de defeitos:
-- 7. Reteste e reavaliação:
-
-### Secundary topics:
-
-  - Estimativa de Custo e esforço e Medições do processo de testes (1)
-  - Times internos e times independentes (1)
-  - Test Driven Development (TDD), o que é *** (1)
-  - Padrões de teste e reutilização de testes *** (7)
-  - Geração de Test case * (3)
-  - Desenvolvimento do ambiente de testes * (4)
-  - Test log (Reportando o problema) * (6)
-  - Quando terminar ? * (7)
-
 # Processos de testes
 
 ## 1 - Planejamento do teste:
@@ -100,10 +49,8 @@ Essa escolha depende do contexto e dos objetivos do teste, garantindo uma aborda
 
 ## 5- Retestes e reavaliação
 
-  Após a conclusão da execução dos testes, é fundamental realizar uma análise detalhada dos resultados e identificar possíveis melhorias. Em caso de erros inesperados ou falhas de funcionamento, é importante revisar cuidadosamente os pontos críticos que exigem atenção. Identificar e focar nesses pontos permite uma reavaliação eficiente e orientada à melhoria contínua dos testes, garantindo assim maior confiabilidade e precisão nos resultados.
-  
-
-
+  Após a conclusão da execução dos testes, é fundamental realizar uma análise detalhada dos resultados e identificar possíveis melhorias. A discussão dos resultados obtidos durante o ciclo de teste, tem como propósito de reduzir falhas e custos, além de otimizar os processos e cumprir os objetivos do negócio. É importante que seja elaborado um relatório de qualidade com a cobertura dos testes e os detalhes do projeto. Em caso de erros inesperados ou falhas de funcionamento, é importante revisar cuidadosamente os pontos críticos que exigem atenção. Identificar e focar nesses pontos permite uma reavaliação eficiente e orientada à melhoria contínua dos testes, garantindo assim maior confiabilidade e precisão nos resultados.
+ 
 
 
 ## Referências:
@@ -112,3 +59,57 @@ MARCELA. Etapas do Processo de Teste de Software: Compreendendo as Etapas Fundam
 BOURQUE, Pierre; FAIRLEY, RJNICS. Swebok. Nd: IEEE Computer society, 2004.
 
 DE, T. Tecnicas de estimativa de custo para projetos de simulacao de teste - FasterCapital. Disponível em: <https://fastercapital.com/pt/contente/Tecnicas-de-estimativa-de-custo-para-projetos-de-simulacao-de-teste.html#Import-ncia-da-estimativa-de-custo-em-projetos-de-simula--o-de-teste>. Acesso em: 21 out. 2024.
+
+
+Método utilizado inicialmente:
+
+# Capítulo 4 - Software Testing
+
+## Tópico 5 e dependências
+
+Guia pra leitura:
+  - *** => importante
+  - * => considerar
+
+# Test Process
+
+## Tópicos guiados via swebok
+
+- Atitudes e programação sem ego
+- Guias de teste
+- Processo de gerenciamento de testes
+- Documentação dos testes e Produtos de trabalho *
+- Test Driven Development (TDD), o que é ***
+- Times internos e times independentes
+- Estimativa de Custo e esforço e Medições do processo de testes
+- Quando terminar ? *
+- Padrões de teste e reutilização de testes ***
+- Atividades de teste *
+- Planejamento
+- Geração de Test case *
+- Desenvolvimento do ambiente de testes *
+- Execução ***
+- Avaliação da execução dos testes *
+- Test log (Reportando o problema) *
+- Procurando o defeito (Defect tracking) *
+
+## Escolha dos tópicos principais:
+
+- 1. Planejamento do teste:
+- 2. Análise de requisitos:
+- 3. Projeto de testes:
+- 4. Preparação do ambiente:
+- 5. Execução dos testes:
+- 6. Registro e análise de defeitos:
+- 7. Reteste e reavaliação:
+
+### Secundary topics:
+
+  - Estimativa de Custo e esforço e Medições do processo de testes (1)
+  - Times internos e times independentes (1)
+  - Test Driven Development (TDD), o que é *** (1)
+  - Padrões de teste e reutilização de testes *** (7)
+  - Geração de Test case * (3)
+  - Desenvolvimento do ambiente de testes * (4)
+  - Test log (Reportando o problema) * (6)
+  - Quando terminar ? * (7)

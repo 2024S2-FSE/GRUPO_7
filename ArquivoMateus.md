@@ -7,7 +7,7 @@ Discente: Mateus Bolotaro Rodrigues
 ## Tópico 4: "Medidas Relacionadas ao Teste"
 
 ### 1. Introdução (Técnicas de Teste x Objetivos de Teste):
-
+  
   As medidas de teste são essenciais para a análise da qualidade do programa e podem até mesmo ser usados para alterar o planejamento e a execução das atividades (Swebok, 2004). Além disso, essas, quando utilizadas corretamente, distinguem as técnicas do teste do objetivo de teste que muitas vezes são confundidas.
   De acordo com o Swebok (2004), as técnicas de testes são as ferramentas que auxiliam no alcance dos objetivos e não o objetivo do teste em si; assim ela colabora para que os resultados do teste sejam concluídos. Para que ambos não sejam confundidos, é fundamental que haja uma distinção e definição clara das medidas utilizadas na avaliação do programa em relação as ao teste e as medidades da avaliação do próprio conjunto de testes.
 
@@ -33,6 +33,39 @@ b. Fault Seeding (semeadura / implementação de falhas): Para que se obtenha es
 
 c. Pontuação de Mutação: É criado versões do produto original com pequenas modificações (chamadas de mutantes); o teste então, deve identificar e eliminar as mutações criadas (os mutantes mortos); a partir daí, é gerado uma pontuação com base na razão dos mutantes mortos e o total de mutantes gerados. 
 
+# Fichamento de Uso de Métricas nos Testes de Software
+
+  As métricas de teste de software são essenciais para garantir a qualidade do software e compreender características dele, além de ser útil para gerar relatórios que informam sobre a sua confiabilidade, estabilidade e desempenho.
+
+a. Número de Ocorrências
+  Informa a quantidade de ocorrências (erros, inconsistências e futuras melhorias) já aconteceram no produto
+
+b. Status das Ocorrências
+  Além da quantidade, pode-se buscar compreender quais são os estados dessas ocorrências, se ainda não foram solucionadas (pendentes de solução), se estão sendo esperando um novo teste (para ser retestado) ou se já estão finalizadas (encerrado). Compreender o número de ocorrências e a quantidade de cada uma em cada status é útil para entender a situação atual do projeto.
+
+c. Índice de Densidade de Defeitos (SWEBOK tbm)
+  Os defeitos são considerados ocorrências que em algum momento foram o motivo de alterações do software ou da documentação.
+
+d. Índice de Severidade de Defeitos
+  A severidade dos defeitos indica a prioridade que cada defeitos reconhecido tem no sistema. Essas prioridades são definidas em níveis, sendo geralmente 4: Crítico (Nível 4), Sério (Nível 3), Médio (Nível 2) e Baixo (Nível 1); assim, para obter o índice deve multiplicar cada ocorrência pelo seu nível e dividir pela quantidade de defeitos
+
+e. Tipos de Defeitos (Swebok tb)
+
+e. Tempo médio para encontrar um defeito
+  Utilizada para compreender a duração da equipe para encontrar um defeito e é obtido por meio da soma da quantidade de horas gastas na execução de testes em razão dos defeitos detectados. 
+  
+f. Tempo para arrumar um defeito
+  Utilizada para compreender a duração da equipe para resolver um defeito encontrado e pode ser usado para estimar o custo de manutenção do sistema. É obtido através da divisão 
+
+g. Tipos de Erros Encontrados
+  É registrado todos os erros que o sistema já teve e que muito provavelmente, pode voltar a ter novamente. 
+
+h. Cobertura de Testes
+  Verifica se o grupo de testes está de fato abrangendo todo o produto e de maneira minuciosa. Definir uma medida de cobertura de teste pode ser mais complexo já que não existe um número correto de quantidades de testes que o sistema precisa ter. Por isso, antes de definir a cobertura de testes, é montado uma coleção de testes necessários que o sistema precisaria ter para ser considerado 100% coberto. Assim, a medida de cobertura de testes se dá pela aplicação dos testes em relação aos testes considerados para o sistema.
+
+i. Efetividade de Caso de Teste
+  Verifica se os casos de testes realmente encontram defeitos e o cálculo é obtido através da relação de número de casos de teste que se tornaram ocorrências e o número total de testes. 
+  
 ## Tópico 6: "Ferramentas de Testes de Software"
 
 ### 1. Introdução (A importância de Ferramentas de Testes):
